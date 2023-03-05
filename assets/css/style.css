@@ -689,8 +689,12 @@ form h3::after{
 
 /* <!-- (9) Footer Area Answer --> */
 .footer{
-    /* position:absolute; */
-    /* top:-5em; */
+    /*  I inserted 4lines from 695-698    */
+    clear:left;
+    display: inline-block;
+    margin-top:4em;
+    width:100%;
+    
     background-image: url(../images/footer-img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -729,6 +733,11 @@ form h3::after{
 
 .footer-widgets p{
     color:#c7a17a;
+}
+
+.footer-widgets input[type="submit"]{
+    background-color:#c7a17a;
+    font-weight: 700;
 }
 
 .footer td, th{
